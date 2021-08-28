@@ -1,0 +1,33 @@
+.skills {
+    margin: 0 auto;
+    background-image: url('../images/fondo.jpg');
+    & h2 {
+        text-align: center;
+    }
+    .skills_logo {
+        width: 90%;
+        margin: 0 auto;
+        & img {
+            width: 30%;
+            margin-left: 2%;
+        }
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .skills {
+        margin: 0 auto;
+
+        & h2 {
+            text-align: center;
+        }
+        .skills_logo {
+            width: 90%;
+            margin-left: 7%;
+            margin-bottom: 2rem;
+            & img {
+                width: 8%;
+            }
+        }
+    }
+}

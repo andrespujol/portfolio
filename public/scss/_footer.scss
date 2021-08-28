@@ -1,0 +1,27 @@
+footer {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+    a { 
+        width: 20%;
+        text-align: center;
+        & img {
+            width: 50%;
+        }
+    }    
+}
+
+@media only screen and (min-width: 1024px) {
+    footer {
+        display: flex;
+        justify-content: center;
+        margin: 1rem;
+        a { 
+            width: 20%;
+            text-align: center;
+            & img {
+                width: 30%;
+            }
+        }    
+    }
+}
