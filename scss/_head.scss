@@ -14,22 +14,25 @@
         font-size: 2rem;
         line-height: 40px;
         color: #212529;
+
         
         &__container {
           font-weight: 600;
           overflow: hidden;
           height: 40px;
           padding: 0 20px;
-      
+
           &:before {
             content: '[';
             left: 0;
+
           }
       
           &:after {
             content: ']';
             position: absolute;
             right: 0;
+
           }
       
           &:after, &:before {
@@ -167,7 +170,7 @@
             &__container {
                 &__list{
                     text-align: left;
-                    padding-left: 10rem;
+                    padding-left: 3rem;
                 }
             }
         }
