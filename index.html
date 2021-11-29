@@ -7,14 +7,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <link rel="stylesheet" href="public/css/styles.css">
+    <link rel="stylesheet" href="./css/styles.css">
     <title>Andrés Pujol</title>
 </head>
 <body>
     <header>
         <nav class="navbar navbar-dark bg-dark">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img src="public/images/logo.png" class="logo"alt="Logo"></a>
+                <a class="navbar-brand" href="#"><img src="./images/logo.png" class="logo"alt="Logo"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -25,13 +25,13 @@
                             <a class="nav-link active" aria-current="page" href="#">home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#about">about</a>
+                            <a class="nav-link" href="#about">Sobre mí</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#skills">skills</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#projects">projects</a>
+                            <a class="nav-link" href="#projects">projectos</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#contact" >contact</a>
@@ -45,23 +45,22 @@
             <div class="content">
                 <div class="content__container">
                   <p class="content__container__text">
-                    Hello,
+                    Hola,
                   </p>
-                  
-                  <ul class="content__container__list">
-                    <li class="content__container__list__item"> world!</li>
-                    <li class="content__container__list__item">I'm andrés</li>
-                    <li class="content__container__list__item">world!</li>
-                    <li class="content__container__list__item">I'm andrés</li>
-                  </ul>
+                    <ul class="content__container__list">
+                        <li class="content__container__list__item"> mundo!</li>
+                        <li class="content__container__list__item">Soy Andrés</li>
+                        <li class="content__container__list__item">mundo!</li>
+                        <li class="content__container__list__item">Soy Andrés</li>
+                    </ul>
                 </div>
-              </div>
+            </div>
     </section>
     <section class="about" id="about">
-        <h2 class="about_h2">About me</h2>
+        <h2 class="about_h2">Sobre mí</h2>
         <div class="aboutContent">
-            <img src="public/images/perfil.jpeg" alt="foto de Andrés Pujol">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita omnis excepturi blanditiis magni ratione aut ut quia deleniti soluta hic, dolorum, porro voluptate assumenda iure adipisci inventore dolore enim repellat neque quo. Ab, earum provident, adipisci amet sapiente tenetur rerum expedita nostrum magnam, error magni laborum laboriosam perspiciatis similique itaque.</p>
+            <img src="./images/perfil.jpeg" alt="foto de Andrés Pujol">
+            <p>Hola! mi nombre es Andrés, soy desarrollador fullstack. Me gusta estar capacitandome constantemente, realicé el curso fullstack de Digital House, también el curso frontend en Coderhouse. Actualmente me encuentro estudiando la tecnicatura en programación en la UTN FRGP. Además, soy tutor en coderhouse en el curso de desarrollo web.</p>
         </div>
 
 
@@ -69,74 +68,76 @@
     <section class="skills" id="skills"> 
         <h2 class="section__h1">Skills</h2>
         <div class="skills_logo">
-            <img src="/public/images/html.png" alt="logo html">
-            <img src="/public/images/css.png" alt="logo css">
-            <img src="/public/images/sass.png" alt="logo sass">
-            <img src="/public/images/js.png" alt="logo javascript">
-            <img src="/public/images/react.png" alt="logo react">
-            <img src="/public/images/nodejs.png" alt="logo nodejs">
-            <img src="/public/images/express.png" alt="logo express">
-            <img src="/public/images/mysql1.png" alt="logo mysql">
-            <img src="/public/images/sequelize.png" alt="logo sequelize">
-            <!-- <img src="/public/images/npm1.png" alt=""> -->
-            <!-- <img src="/public/images" alt=""> -->
-            <!-- <img src="/public/images" alt=""> -->
+            <img src="./images/html.png" alt="logo html">
+            <img src="./images/css.png" alt="logo css">
+            <img src="./images/sass.png" alt="logo sass">
+            <img src="./images/js.png" alt="logo javascript">
+            <img src="./images/react.png" alt="logo react">
+            <img src="./images/nodejs.png" alt="logo nodejs">
+            <img src="./images/express.png" alt="logo express">
+            <img src="./images/mysql1.png" alt="logo mysql">
+            <img src="./images/sequelize.png" alt="logo sequelize">
         </div>
     </section>
     <section class="projects" id="projects">
-        <h2 class="projects__h2">Projects</h2>
+        <h2 class="projects__h2">Projectos</h2>
         <div class="container">
-            <div class="card">
+            <article class="card">
                 <div class="face face1">
                     <div class="content">
-                        <img src="/public/images/coderbank.png">
+                        <img src="./images/coderbank.png">
                         <h3>coderbank</h3>
                     </div>
                 </div>
                 <div class="face face2">
                     <div class="content">
                         <p>Simulación de una página bancaria para el curso de js en Coderhouse. Realizada con HTML, CSS, SASS, JS y JQUERY.</p>
+                        <div class="contentLinks">
                             <a href="https://github.com/andrespujol/simulador" target="_blank">Github</a>
                             <a href="https://andrespujol.github.io/simulador/" target="_blank">Sitio</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="card">
+            </article>
+            <article class="card">
                 <div class="face face1">
                     <div class="content">
-                        <img src="/public/images/yugen.png">
+                        <img src="./images/yugen.png">
                         <h3>Yugen</h3>
                     </div>
                 </div>
                 <div class="face face2">
                     <div class="content">
-                        <p>Proyecto para un emprendimiento dedicado a la fabricación y venta de productos de decoración. Hecha en HTML, CSS, SASS, JS y JQUERY</p>
-                        <a href="https://github.com/andrespujol/yugen" target="_blank">Github</a>
-                        <a href="https://yugen-six.vercel.app" target="_blank">Sitio</a>
+                        <p>Proyecto para un emprendimiento dedicado a la venta de productos de decoración. Hecha en HTML, CSS, SASS, JS y JQUERY</p>
+                        <div class="contentLinks">
+                            <a href="https://github.com/andrespujol/yugen" target="_blank">Github</a>
+                            <a href="https://yugen-six.vercel.app" target="_blank">Sitio</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="card">
+            </article>
+            <article class="card">
                 <div class="face face1">
                     <div class="content">
-                        <img src="/public/images/morena.png">
+                        <img src="index.html">
                         <h3>Morena</h3>
                     </div>
                 </div>
                 <div class="face face2">
                     <div class="content">
-                        <p>[en construcción] Proyecto para un emprendimiento de venta de indumentaria femenina. Hecho con REACT</p>
-                        <a href="https://github.com/andrespujol/morena" target="_blank">Github</a>
-                        <!-- <a href="https://andrespujol.github.io/simulador/" target="_blank">Sitio</a> -->
+                        <p>Proyecto para un emprendimiento de venta de indumentaria femenina. Hecho con REACT (hooks) y firebase para la base de datos.</p>
+                        <div class="contentLinks">
+                            <a href="https://github.com/andrespujol/morena" target="_blank">Github</a>
+                            <a href="https://morena-seven.vercel.app//" target="_blank">Sitio</a>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </article>
         </div>
     </section>
     <footer id="contact">
-        <a href=""><img class="imgFooter" src="/public/images/linkedin.png" alt="logo de linkedin"></a>
-        <a href=""><img class="imgFooter" src="/public/images/whatsapp.png" alt="logo de whatsapp"></a>
-
+        <a href="./documents/CV Andrés Pujol.pdf" download="CV Andrés Pujol.pdf"><img src="./images/cv.png" alt="CV de Andrés Pujol" class="cv"></a>
+        <a href="https://www.linkedin.com/in/andrespujol/ " target="_blank"><img class="imgFooter" src="./images/linkedin.png" alt="logo de linkedin"></a>
     </footer>
     <script src="app.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
