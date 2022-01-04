@@ -7,20 +7,21 @@
         top: 30%;
         left: 50%;
         transform: translate(-50%, -50%);
-        height: 60px;
+        height: 6rem;
         overflow:hidden;
         width: 100%;
         font-family: 'Lato', sans-serif;
         font-size: 2rem;
         line-height: 40px;
         color: #212529;
-
-        
+      //   & .content__container {
+      //     height: rem;
+      // }
         &__container {
           font-weight: 600;
           overflow: hidden;
           height: 40px;
-          padding: 0 20px;
+          padding: 0 10px;
 
           &:before {
             content: '[';
@@ -167,12 +168,15 @@
         }
         .content {
             width: 50%;
-            &__container {
-                &__list{
-                    text-align: left;
-                    padding-left: 3rem;
-                }
-            }
+
+            // &__container {
+            //   padding: 0 10px;
+            //     &__list{
+            //         text-align: left;
+            //         padding-left: 3rem;
+            //     }
+            // }
+
         }
     }
 }
@@ -191,7 +195,11 @@
         .content {
             width: 60%;
             top: 50%;
-            font-size: 3rem;
+            font-size: 2.3rem;
+            height: 45px;
+            & .content__container__list__item {
+              padding-left: 2rem;
+            }
         }
     }
 
@@ -209,20 +217,20 @@
             }
         }
         .content {
-            width: 40%;
+            width: 60%;
             top: 55%;
-            font-size: 4.4rem;
+            font-size: 4rem;
             line-height: 5.5rem;
             height: 12rem;
-            &__container {
+            & .content__container {
+                  
                 height: 5rem;
                 &:after, &:before {
                     position: absolute;
                     top: -20px;
-                    
                     color: #16a085;
-                    font-size: 6rem;
-                    line-height: 7.2rem;
+                    font-size: 5rem;
+                    line-height: 7.3rem;
 
                   }
                 &__text {

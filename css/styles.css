@@ -6,7 +6,7 @@
     top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 60px;
+    height: 6rem;
     overflow: hidden;
     width: 100%;
     font-family: 'Lato', sans-serif;
@@ -17,7 +17,7 @@
       font-weight: 600;
       overflow: hidden;
       height: 40px;
-      padding: 0 20px; }
+      padding: 0 10px; }
       .head .content__container:before {
         content: '[';
         left: 0; }
@@ -43,7 +43,7 @@
         margin: 0; }
       .head .content__container__list {
         margin-top: 0;
-        padding-left: 80px;
+        padding-left: 110px;
         text-align: left;
         list-style: none;
         -webkit-animation-name: change;
@@ -144,10 +144,7 @@
   .head .headContent {
     width: 45%; }
   .head .content {
-    width: 50%; }
-    .head .content__container__list {
-      text-align: left;
-      padding-left: 6rem; } }
+    width: 50%; } }
 
 @media only screen and (min-width: 1024px) {
   .head {
@@ -161,10 +158,10 @@
     .head .content {
       width: 60%;
       top: 50%;
-      font-size: 2.3rem; } 
-      .head .content__container__list {
-        text-align: left;
-        padding-left: 8rem; }}
+      font-size: 2.3rem;
+      height: 45px; }
+      .head .content .content__container__list__item {
+        padding-left: 2rem; } }
 
 @media only screen and (min-width: 1624px) {
   .head {
@@ -176,31 +173,31 @@
       .head .headContent p {
         font-size: 6rem; }
     .head .content {
-      width: 40%;
+      width: 60%;
       top: 55%;
       font-size: 4rem;
       line-height: 5.5rem;
       height: 12rem; }
-      .head .content__container {
+      .head .content .content__container {
         height: 5rem; }
-        .head .content__container:after, .head .content__container:before {
+        .head .content .content__container:after, .head .content .content__container:before {
           position: absolute;
           top: -20px;
           color: #16a085;
-          font-size: 6rem;
-          line-height: 7.2rem; }
-        .head .content__container__text {
+          font-size: 5rem;
+          line-height: 7.3rem; }
+        .head .content .content__container__text {
           height: 5rem;
           padding-left: 3rem; }
-        .head .content__container__list {
+        .head .content .content__container__list {
           text-align: left;
-          padding-left: 15rem; }
-        .head .content__container__list__item {
+          padding-left: 18rem; }
+        .head .content .content__container__list__item {
           line-height: 5.5rem; } }
 
 .about {
   background-color: #212529;
-  margin: 2rem 0; }
+  padding: 0 0 2rem 0; }
   .about .about_h2 {
     text-align: center;
     color: white;
@@ -211,12 +208,18 @@
     width: 100%; }
     .about .aboutContent img {
       width: 80%;
+      height: 40vh;
       margin: 0 auto;
       border-radius: 10px; }
     .about .aboutContent p {
       text-align: center;
       color: white;
       padding: 1rem; }
+
+@media only screen and (min-width: 481px) {
+  .about .aboutContent img {
+    width: 90%;
+    height: 50vh; } }
 
 @media only screen and (min-width: 769px) {
   .about .aboutContent {
@@ -236,7 +239,7 @@
     .about .aboutContent img {
       margin-left: 10%; }
     .about .aboutContent p {
-      font-size: 2rem;
+      font-size: 1.5rem;
       margin-right: 10%; } }
 
 .skills {
@@ -259,7 +262,7 @@
     .skills .skills_logo {
       width: 90%;
       margin-left: 7%;
-      margin-bottom: 2rem; }
+      padding-bottom: 2rem; }
       .skills .skills_logo img {
         width: 8%; } }
 
@@ -362,9 +365,16 @@
   align-items: center;
   width: 100%; }
 
+.logoFachari {
+  width: 60% !important;
+  margin-left: 20%;
+  height: 10vh; }
+
 @media only screen and (min-width: 1024px) {
   .projects {
-    justify-content: center; } }
+    justify-content: center; }
+  .container {
+    max-width: 2000px; } }
 
 footer {
   display: flex;
@@ -391,9 +401,9 @@ body {
   font-family: 'Roboto', sans-serif; }
 
 header .navbar-brand {
-  width: 50%; }
+  width: 70%; }
   header .navbar-brand .logo {
-    width: 90%; }
+    width: 100%; }
 
 @media only screen and (min-width: 1024px) {
   header .navbar-brand {
