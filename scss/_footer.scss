@@ -1,26 +1,32 @@
 footer {
     display: flex;
     justify-content: center;
-    margin: 1rem;
     a { 
         width: 20%;
         text-align: center;
+        margin: 1rem;
         & img {
-            width: 50%;
+            width: 100%;
         }
     }    
 }
 
 @media only screen and (min-width: 1024px) {
     footer {
-        display: flex;
-        justify-content: center;
         margin: 1rem;
         a { 
-            width: 20%;
-            text-align: center;
             & img {
-                width: 30%;
+                width: 60%;
+            }
+        }    
+    }
+}
+
+@media only screen and (min-width: 1624px) {
+    footer {
+        a { 
+            & img {
+                width: 40%;
             }
         }    
     }

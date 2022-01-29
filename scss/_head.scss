@@ -4,7 +4,7 @@
     // background: red;
     .content {
         position: absolute;
-        top: 30%;
+        top: 35%;
         left: 50%;
         transform: translate(-50%, -50%);
         height: 6rem;
@@ -42,7 +42,7 @@
             
             color: #16a085;
             font-size: 42px;
-            line-height: 40px;
+            line-height: 32px;
             
             -webkit-animation-name: opacity;
             -webkit-animation-duration: 2s;
@@ -157,7 +157,8 @@
 @media only screen and (min-width: 481px) {
     .head{
         .content {
-            width: 80%;
+          top: 32%;
+          width: 80%;
         }
     }
 }
@@ -167,6 +168,7 @@
             width: 45%;
         }
         .content {
+          top: 35%;
             width: 50%;
 
             // &__container {
